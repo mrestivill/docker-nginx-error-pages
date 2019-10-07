@@ -1,6 +1,6 @@
 FROM alpine AS builder
 WORKDIR /www
-ADD https://github.com/denysvitali/nginx-error-pages/tarball/master /
+ADD https://github.com/glarfs/nginx-error-pages/tarball/master /
 RUN tar --strip-components=1 -xf /master -C /www/
 
 FROM nginx:mainline-alpine
