@@ -1,3 +1,5 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/glarfs/nginx-error-pages.svg)](https://hub.docker.com/r/glarfs/nginx-error-pages/)
+[![license](https://img.shields.io/github/license/glarfs/docker-nginx-error-pages.svg)](https://github.com/glarfs/docker-nginx-error-pages/blob/master/LICENSE)
 # docker-nginx-error-pages
 Nginx docker image containing error-pages.
 
