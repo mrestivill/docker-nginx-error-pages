@@ -7,6 +7,17 @@ https://github.com/denysvitali/nginx-error-pages
 Thanks  @denysvitali 
 
 
+## build
+
+Single architecture:
+```
+docker build -t glarfs/nginx-error-pages .
+```
+Multiple architectures:
+```
+docker buildx build -t glarfs/nginx-error-pages --platform=linux/arm,linux/arm64,linux/amd64 . --push
+```
+
 ## run
 ```
 docker run --name error-pages -p 8080:80 -d glarfs/nginx-error-pages
